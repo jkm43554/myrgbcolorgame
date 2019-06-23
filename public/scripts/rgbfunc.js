@@ -6,6 +6,7 @@ var pickedColor;
 var colorDisp = document.getElementById("colorDisp");
 var mesDisp = document.querySelector("#message");
 var h1 = document.querySelector("h1");
+var h2 = document.querySelector("h2");
 var resetButton = document.querySelector("#reset");
 var numSquares = 6;
 var modeButtons = document.querySelectorAll(".mode");
@@ -116,7 +117,7 @@ function reset(){
 		}
 	}
 
-	h1.style.backgroundColor = "steelblue";
+	h1.style.backgroundColor = "pink";
 	this.textContent = "New Colors";
 }
 
