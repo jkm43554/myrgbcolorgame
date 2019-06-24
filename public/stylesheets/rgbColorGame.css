@@ -1,6 +1,8 @@
 html{
-	background:white;
+	background-image:url('../images/smallstr.png');
+	 animation: barberpole 10s linear infinite;
 }
+
 body {
 	background: pink;
 	margin: 0;
@@ -23,7 +25,7 @@ body {
 	transition: background 0.3s;
 	--webkit-transition: background 0.3s;
 	--moz-transition: background 0.3s;
-	box-shadow: -3px 3px 0 rgba(0,0,0,.2);
+	box-shadow: -5px 5px 0 rgba(0,0,0,.2);
 }
 
 .container{
@@ -52,10 +54,11 @@ h1{
 	text-transform: uppercase;
 	line-height: 1.6;
 	padding: 20px 0;
+	text-shadow: 2px 2px 0 rgba(0,0,0,.2);
 	
 }
 .title{
-	font-size:2em!important;
+	font-size:2.2em!important;
 	text-shadow: 5px 5px black;
 	font-weight: bold !important;
 }
@@ -73,6 +76,7 @@ h1{
 	height: 30px;
 	text-align: center;
 	color: black;
+	
 }
 
 .selected{
@@ -107,7 +111,11 @@ button{
 
 
 
-
+@keyframes barberpole {
+  100% {
+    background-position: -30em -30em;
+  }
+}
 
 
 
